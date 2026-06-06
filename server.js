@@ -10,6 +10,8 @@ const app = express();
 // ============================================
 // MIDDLEWARE
 // ============================================
+
+const fs = require("fs");
 app.use(cors());
 app.use(express.json());
 
